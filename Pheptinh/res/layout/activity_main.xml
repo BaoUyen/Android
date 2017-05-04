@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <TextView
+        android:id="@+id/nhapA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nhapa" />
+ 
+    <EditText
+        android:id="@+id/soA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal">
+        <requestFocus />
+    </EditText>
+ 
+    <TextView
+        android:id="@+id/nhapB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nhapb" />
+ 
+    <EditText
+        android:id="@+id/soB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:labelFor="@+id/soB" />
+ 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pheptoan" />
+ 
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/cacpheptoan" />
+ 
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ketqua" />
+ 
+    <EditText
+        android:id="@+id/ketQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="numberDecimal"/>
+ 
+</LinearLayout>
