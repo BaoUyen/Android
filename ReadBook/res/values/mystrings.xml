@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    
+     <string-array name="type">
+        <item>Danh sách truyện</item>
+        <item>Tử đằng không nở lần hai</item>
+        <item>Cho những ai dành cả thanh xuân để yêu ai đó...</item>
+        <item>Hôm nay tôi thất tình [Hạ Vũ]</item>
+        <item>Ký ức độc quyền</item>
+        <item>Dear Diary</item>
+    </string-array>
+    
+</resources>
