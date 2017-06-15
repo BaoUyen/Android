@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="myarray">
+        <item >Đi để trở về</item>
+        <item >Đi về đâu</item>
+        <item >Shape of you</item>
+        <item >Treat You Better</item>
+        <item >Vài lần đón đưa</item>
+</string-array>
+    
+</resources>
